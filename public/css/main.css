@@ -1,0 +1,437 @@
+body {
+    margin: 0%;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: floralwhite;
+    margin: 0px;
+    background-image: url("../img/hbg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#home > .header {
+    width: 100%;
+    height: 37px;
+    background-color:#0D47A1;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 37px 1px rgba(0,0,0,0.75); 
+    box-shadow: 0px 5px 37px 1px rgba(0,0,0,0.75);
+}
+
+#home > .header > .menu {
+    width: 40%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#home > .header > .menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 22px;
+    background-color:#0D47A1;
+}
+
+#home > .header > .menu a:hover{
+    color: #dddddd;
+    text-decoration: underline;
+    padding: 5px 20px;
+    font-size: 22px;
+    background-color:#527BBC;
+}
+
+#home > .header > .headertxt {
+    color: white;
+    margin-right: 30px;
+    align-items: center;
+    font-size: 22px;
+}
+
+#home > .header > .headertxt b {
+    color: #98C75D;
+    font-weight: bold;
+    
+}
+
+#home > .homewp {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+#home > .homewp > .logo {
+    width: 400px;
+    height: 400px;
+    background-color:#EAEAEA;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+    -webkit-box-shadow: 0px 2px 37px -7px rgba(0,0,0,1); 
+    box-shadow: 0px 2px 37px -7px rgba(0,0,0,1);
+}
+
+#home > .homewp > .spanisha {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: right;
+ 
+}
+
+#home > .homewp > .spanisha > .awp {
+    width: 150px;
+    height: 30px;
+    background-color: #98C75D;
+    text-align: left;   
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75); 
+    box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75);
+}
+
+#home > .homewp > .spanisha > .awp:hover {
+    background-color: #F88017;
+}
+
+#home > .homewp > .spanisha > .awp a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 22px;
+}
+#home > .homewp > .spanisha > .awp a:hover {
+    font-size: 20px;
+}
+
+
+#services {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#services > .columns1 {
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    
+}
+
+#services > .columns1 > .swp {
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+
+#services > .columns1 > .swp h1{
+    color: #98C75D;
+}
+
+#services > .columns1 > .swp ul{
+    list-style-type: none;
+}
+
+#services > .columns1 > .swp li{
+    font-size: 22px;
+    color: #707070;
+}
+
+#services > .columns2 {
+    width: 40%;
+    height: 100vh;
+    background-color: #0D47A1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white; 
+    font-size: 22px;
+    text-align: center;
+}
+
+#services > .columns2 h2{
+    color: #F88017;
+}
+
+#services > .columns2 > .ps{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-image: url("../img/1p.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+#services > .columns2 > .stxt{
+    padding: 0px 40px;
+    
+}
+
+#services > .columns2 > .spanishs {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#services > .columns2 >  .spanishs > .awp {
+    width: 150px;
+    height: 30px;
+    background-color: #98C75D;
+    text-align: center;   
+    -webkit-box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75); 
+    box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75);
+  
+}
+#services > .columns2 >  .spanishs > .awp:hover {
+    background-color: #F88017;
+}
+
+#services > .columns2 >  .spanishs > .awp a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 30px;
+    font-size: 22px;
+    margin-top: 2px;
+    
+}
+
+#services > .columns2 >  .spanishs > .awp a:hover {
+    font-size: 20px;
+}
+
+#services > .columns3 {
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+}
+
+#services > .columns3 > .swp {
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+
+#services > .columns3 > .swp h1{
+    color: #98C75D;
+}
+
+#services > .columns3 > .swp ul{
+    list-style-type: none;
+}
+
+#services > .columns3 > .swp li{
+    font-size: 22px;
+    color: #707070;
+}
+
+#services > .columns3 > .maps{
+    padding: 40px;
+}
+
+#aboutus {
+    width: 100%;
+    height: 100vh;
+    background-color: #F88017;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#aboutus > .rowa1 {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#aboutus > .rowa1 h1 {
+    color: #F88017;
+    padding-left: 40px;
+}
+
+#aboutus > .rowa1 > .spanisha {
+    height: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+#aboutus > .rowa1 > .spanisha > .awp {
+    width: 150px;
+    height: 30px;
+    background-color: #98C75D;
+    text-align: left;   
+    display: flex;
+    align-items: center;  
+    -webkit-box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75); 
+    box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75);
+}
+
+#aboutus > .rowa1 > .spanisha > .awp:hover {
+    background-color: #0D47A1;
+}
+
+#aboutus > .rowa1 > .spanisha > .awp a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 22px;
+}
+
+#aboutus > .rowa1 > .spanisha > .awp a:hover {
+    font-size: 20px;
+}
+
+#aboutus > .rowa2 {
+    width: 45%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    
+}
+
+#aboutus > .rowa3 {
+    width: 45%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    
+}
+
+#aboutus > .rowa3 > .valuewp {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-weight: bold;
+    
+}
+
+#aboutus > .rowa3 > .valuewp > .values {
+    width: 30%;
+    height: 30px;
+    background-color: #0D47A1;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+}
+
+#contact > .columnc1 {
+    width: 30%;
+    height: 100vh;
+    background-color: #98C75D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#contact > .columnc1 > .rawc11 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#contact > .columnc1 > .rawc11 > .googlemap {
+    margin-top: 50px;
+}
+
+#contact > .columnc2 {
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+#contact > .columnc3 {
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #98C75D;
+    
+}
+
+#contact > .columnc3 > .spanisha {
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    margin-top: 150px;
+}
+
+#contact > .columnc3 >  .spanisha > .awp {
+    width: 150px;
+    height: 30px;
+    background-color: #0D47A1;
+    text-align: left;
+    display: flex;
+    align-items: center;   
+    -webkit-box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75); 
+    box-shadow: 0px 2px 37px -7px rgba(0,0,0,0.75);
+    
+}
+
+#contact > .columnc3 >  .spanisha > .awp:hover {
+    background-color: #F88017;
+    
+}
+
+#contact > .columnc3 >  .spanisha > .awp a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 22px;
+}
+
+#contact > .columnc3 >  .spanisha > .awp a:hover {
+    font-size: 20px;
+}
+
